@@ -15,6 +15,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "PrimeAPKEditor"
 include(":app")
-include(":core-native")
-include(":editor-ui")
-include(":signer")

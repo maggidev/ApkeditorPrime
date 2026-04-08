@@ -1,13 +1,12 @@
-# PrimeAPK Editor 🚀
+# PrimeAPK Editor (Monolithic) 🚀
 
-Um editor de APK Android de alta performance, focado em processamento nativo e Material 3.
+Um editor de APK Android de alta performance, consolidado em um único módulo para máxima confiabilidade de build.
 
-## 🛠️ Arquitetura Modular
+## 🛠️ Arquitetura
 
-- **`:app`**: Fusão de Split APKs e UI principal.
-- **`:core-native`**: Engine C++ para AXML e DEX.
-- **`:editor-ui`**: Editor Compose Material 3.
-- **`:signer`**: Assinatura V2/V3/V4.
+- **Módulo Único (`:app`)**: Contém toda a lógica de UI (Compose), Core (Native C++), Signer e Merger.
+- **Material 3**: Interface moderna e totalmente compatível.
+- **NDK Integration**: Processamento nativo via JNI integrado diretamente.
 
 ## 🚀 Como Compilar
 
