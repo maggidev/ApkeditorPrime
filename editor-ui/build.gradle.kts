@@ -26,7 +26,6 @@ android {
     }
 
     composeOptions {
-        // Aligned with app module and Kotlin 1.9.23
         kotlinCompilerExtensionVersion = "1.5.11"
     }
 }
@@ -34,10 +33,8 @@ android {
 dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     
-    // Aligned with app module: Compose BOM 2024.04.01
     implementation(platform("androidx.compose:compose-bom:2024.04.01"))
     
-    // All Material 3 dependencies
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")

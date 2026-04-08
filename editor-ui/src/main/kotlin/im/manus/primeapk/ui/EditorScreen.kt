@@ -33,7 +33,6 @@ fun EditorScreen(fileName: String, content: String) {
         }
     ) { padding ->
         Column(modifier = Modifier.padding(padding).fillMaxSize()) {
-            // High-performance LazyLayout for 100k+ lines
             LazyColumn(modifier = Modifier.fillMaxSize()) {
                 item {
                     TextField(
